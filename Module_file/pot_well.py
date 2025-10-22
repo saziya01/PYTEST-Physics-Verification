@@ -16,3 +16,4 @@ def probability_in_half(psi_values, dx):
     half_index = int(len(psi_values) / 2)
     prob = np.sum(np.abs(psi_values[:half_index])**2) * dx
     return prob
+
